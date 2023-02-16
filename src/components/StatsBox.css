@@ -1,0 +1,14 @@
+.statstable {
+	margin: 1% 11.75% 0;
+	width: 88%;
+	z-index: 2;
+	font-size: 100%;
+	/* border: solid 1px red; */
+}
+
+th,td {
+	border: solid 1px black;
+	margin:0;
+	padding:3.5px;
+	text-align: center;
+}

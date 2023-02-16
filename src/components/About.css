@@ -1,0 +1,12 @@
+.about {
+	height: 25%;
+	width: 54%;
+	background-color: #FFF;
+	/* -webkit-filter: drop-shadow(0px 0px 5px #663a82); */
+	filter: drop-shadow(0px 7px 9px #663a82);
+	margin: 2% 21%;
+	padding: 0.5% 2%;
+	font-size: 120%;
+	font-family: 
+	/* border: solid 1px red; */
+}

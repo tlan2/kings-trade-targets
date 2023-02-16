@@ -1,0 +1,30 @@
+.metabox {
+	display: inline-box;
+	width: 100%;
+	/* border: solid 1px red; */
+}
+
+.playerImg {
+	height: 99%;
+    width: auto;
+	align-items: left;
+	position: absolute;
+	border: solid 1px black;
+}
+
+.metadata {
+	display: inline-box;
+	text-align: center;
+	font-size: 175%;
+	/* border: solid 1px red; */
+}
+
+.posTeam {
+	font-size: 85%;
+}
+
+.metastats {
+	font-size: 65%;
+	margin-top: 1%;
+	/* border: solid 1px red; */
+}

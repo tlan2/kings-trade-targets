@@ -1,4 +1,5 @@
 import React from "react";
+import './StatsBox.css';
 
 class StatsBox extends React.Component {
     render () {
@@ -7,7 +8,7 @@ class StatsBox extends React.Component {
                 <table className="statstable">
                     <thead className="statsheaders">
                         <tr>
-                            <th>Cumulative<br/>Ranking</th>
+                            <th>Catch-All<br/>Ranking</th>
                             <th>G</th>
                             <th>MPG</th>
                             <th>PPG</th>

@@ -1,8 +1,12 @@
 import React from "react";
 import StatsBox from "./StatsBox";
+import './DataBox.css';
 
 class DataBox extends React.Component {
     render() {
+        var contractYears = parseInt(this.props.contractYears) === 0 ? "2-Way Contract" : this.props.contractYears;
+        var yearlyAvg = isNaN(parseInt(this.props.yearlyAvg)) ? "" : parseInt(this.props.yearlyAvg).toLocaleString("en-US");
+        var contractInfo = (contractYears === "2-Way Contract") ? contractYears : contractYears + " yr(s) / $" + yearlyAvg + " AVG.";
         return(
             <div className="box">
                 <div>
@@ -13,8 +17,7 @@ class DataBox extends React.Component {
                         </div>
                         <div className="metastats">
                             {"Height/Weight: " + this.props.height + ", " + this.props.weight.replace("lbs","") + 
-                            " | Age: " + this.props.age + " | Contract: " + this.props.contractYears + " yr(s) / $" 
-                            + parseInt(this.props.yearlyAvg).toLocaleString("en-US") + " avg" }
+                            " | Age: " + this.props.age + " | Contract: " + contractInfo }
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,42 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+	z-index: 2;
+	border: solid 2px grey;
+	background: rgb(255, 255, 255);
+	background-blend-mode: darken;
+	background-size: cover;    
+}
+
+.nav-list {
+	width: 50%;
+	display: flex;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	width: 7em;
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 1% 4%;
+	font-size: 200%;
+}
+
+.nav-list li a, .about a {
+	text-decoration: none;
+	color: #000;
+}
+
+.nav-list li a:hover, .about a:hover {
+	color: grey;
+}

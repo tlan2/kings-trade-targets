@@ -1,5 +1,6 @@
 import React from "react";
 import DataBox from "./DataBox";
+import './Card.css';
 
 class Card extends React.Component {
     render() {

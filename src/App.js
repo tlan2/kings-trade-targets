@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
-import Navbar from "./components/Navbar.js";
+import Navbar from "./components/navbar/Navbar.js";
 import Card from "./components/Card.js";
 import About from "./components/About.js";
 
-function createCard(item) {
+function createCards(item) {
   return (
     <Card
       key={item.name} 
@@ -80,25 +80,25 @@ function App() {
       <div className="cards" id="bigs">
         <h1 className="positionHeaders">BIGS</h1>
         {
-            sortedBigs.map(createCard)
+            sortedBigs.map(createCards)
         }
       </div>
       <div className="cards" id="wings">
         <h1 className="positionHeaders">WINGS</h1>
         {
-          sortedWings.map(createCard)
+          sortedWings.map(createCards)
         }
       </div>
       <div className="cards" id="guards">
         <h1 className="positionHeaders">GUARDS</h1>
         {
-          sortedGuards.map(createCard)
+          sortedGuards.map(createCards)
         }
       </div>
       <div className="cards" id="kings">
         <h1 className="positionHeaders">KINGS</h1>
         {
-          sortedKings.map(createCard)
+          sortedKings.map(createCards)
         }
       </div>
     </div>
