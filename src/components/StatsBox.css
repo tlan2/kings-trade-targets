@@ -12,3 +12,15 @@ th,td {
 	padding:3.5px;
 	text-align: center;
 }
+
+/* */
+@media only screen and (max-width: 767px) {	
+	.statstable {
+		margin: 1% 18% 0;
+		width: 75%;
+		z-index: 2;
+		font-size: 100%;
+		overflow-x: scroll; 
+		border-collapse: collapse;
+	}
+}

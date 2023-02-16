@@ -42,21 +42,24 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .nav-list {
+    .navbar {
+		width: 170%;
+	}
+	.nav-list {
         display: inline;
     } 
 
 	.nav-list li {
 		list-style: none;
 		font-size: 150%;
-		margin-left: 20%;
+		margin-left: 21%;
 	}
 
 	.logo {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-right: 25%;
+		margin-right: 37%;
 	}
 
 	.logo img {

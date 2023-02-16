@@ -1,9 +1,3 @@
-/* .box {
-	display: inline-box;
-	width: 100%;
-	margin: 0;
-} */
-
 .playerImg {
 	margin-top: 0;
 	height: 99%;
@@ -30,30 +24,27 @@
 	/* border: solid 1px red; */
 }
 
-@media only screen and (max-width: 767px) {
-	.metabox {
-		display: inline-box;
-		width: 100%;
-		border: solid 1px red;
-	}
-	
+@media only screen and (max-width: 767px) {	
 	.playerImg {
 		height: 99%;
 		width: auto;
 		align-items: left;
 		position: absolute;
 		border: solid 1px black;
+		/* display: none; */
 	}
 	
 	.metadata {
-		display: inline-box;
+		display: flex;
+		flex-flow: column;
+		justify-content: space-around;
 		text-align: center;
-		font-size: 175%;
-		/* border: solid 1px red; */
+		font-size: 135%;
+		margin-left: 2%;
 	}
 	
 	.posTeam {
-		font-size: 85%;
+		font-size: 80%;
 	}
 	
 	.metastats {
