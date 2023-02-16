@@ -10,7 +10,7 @@ class DataBox extends React.Component {
         return(
             <div className="box">
                 <div>
-                    <img src={this.props.imgUrl} className="playerImg" alt={this.props.name} /> 
+                <img src={this.props.imgUrl} className="playerImg" alt={this.props.name} /> 
                     <div className="metadata">
                         <div className="name">
                             {this.props.playerName + " -"} <span className="posTeam"> { this.props.position + " - " + this.props.team} </span> 

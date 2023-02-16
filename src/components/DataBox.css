@@ -1,19 +1,20 @@
-.metabox {
+/* .box {
 	display: inline-box;
 	width: 100%;
-	/* border: solid 1px red; */
-}
+	margin: 0;
+} */
 
 .playerImg {
+	margin-top: 0;
 	height: 99%;
-	width: auto;
+	width: 10%;
 	align-items: left;
 	position: absolute;
 	border: solid 1px black;
 }
 
 .metadata {
-	display: inline-box;
+	display: block;
 	text-align: center;
 	font-size: 175%;
 	/* border: solid 1px red; */
