@@ -4,19 +4,8 @@ import './Card.css';
 
 class Card extends React.Component {
     render() {
-        var cardStyle = {
-            height: "19.5vh",
-            width: "55vw",
-            // borderRadius: "3px",
-            padding: "0",
-            backgroundColor: "#FFF",
-            WebkitFilter: "drop-shadow(0px 0px 5px #663a82)",
-            filter: "drop-shadow(0px 7px 9px #663a82)",
-            display: "inline-block",
-            margin: "10px"
-        };
         return(
-            <div style={cardStyle}>
+            <div className="card">
                 <DataBox 
                     imgUrl={this.props.imgUrl} 
                     playerName={this.props.playerName}
